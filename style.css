@@ -4,6 +4,19 @@ body {
     background-color:white; 
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
 /*NAVIGATION BAR STYLING*/
 
 ul {
@@ -45,7 +58,7 @@ li a:hover {
 /* FOOTER STYLING */
 
 footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -53,3 +66,12 @@ footer {
     color: white;
     text-align: center;
   }
+
+img {
+      width: 300px;
+}
+
+.aboutMe {
+    padding-left: 120px;
+    padding-right: 120px;
+}
